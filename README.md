@@ -1,14 +1,16 @@
 # Hacker-s-Toolbox-Project
 This project includes documentation about various cybersecurity tools, their similairities and differences, and a demonstration of how to use the tool Cewl in Kali Linux.
-By: Mary Picciano
-User Handbook of Cewl
 
-Introduction 
+By: Mary Picciano
+
+# User Handbook of Cewl
+
+# Introduction 
 Purpose of the Tool: Cewl (Custom Word List Generator) is an open-source cybersecurity tool that can be used to create word lists from websites. It is a Ruby app, meaning the software is written using Ruby programming and requires a Ruby environment to actually execute the tool. The wordlists created by Cewl can then be used by password cracking tools such as John the Ripper. By collecting wordlists that are relevant to a particular website, cybersecurity professionals can use Cewl to exploit any potential password weaknesses.
 Intended Audience: Cewl was created with the intended audience being cybersecurity professionals, penetration testers, system administrators, and any other job titles that would perform security assessments on passwords. Additionally, it can also be used by cybersecurity students to understand how hackers get password lists to use for brute force attacks, as well as practice ethical hacking. It is important to use tools such as Cewl ethically and not for performing malicious attacks. While some unethical hackers may try to use this to generate a password list, cybersecurity professionals can use this tool to their advantage to spot any weak passwords before the hackers do. 
 Common Cybersecurity Applications: Cewl is used for password auditing and penetration testing primarily. Security professionals use Cewl to generate common words used on an organization’s website. These lists can then be used in password assessments to identify passwords that may be based on public information, including the company name, a product it may sell, or any other terms associated with the organization. By creating these lists, it makes password assessments more relevant to the company or organization that is being evaluated. However, it is important to note that Cewl is not used for the actual act of password cracking, but rather creates the list to use for it. 
 
-Installation 
+# Installation 
 System Requirements: Cewl is compatible with Linux, Windows, and macOS. So, in order to use this tool, it needs to be done in one of these operating systems.
 Installation Steps: Since this a ruby app, there are certain gems that need to be installed for Cewl to run, including mime, mime-types, mini_exiftool, nokogiri, public_suffix, rubyzip, spider, and getoptlong. The easiest way to install these is to run the Linux command : 
 gem install bundler 
@@ -32,7 +34,7 @@ sudo ln -s $(pwd)/cewl.rb /usr/local/bin/cewl
 If you are using Kali Linux, Cewl is pre-installed, so they only command you have to run is sudo apt update && apt install cewl
 Initial Configuration: Once Cewl is installed, there are several other commands you can use to set preferences for when generating your word list. There is not extensive configuration that is needed once installed, but there are several functionalities of this tool that can be used on a website. 
 
-Usage Guide 
+# Usage Guide 
 
 Primary Function: The primary function of Cewl is to provide a custom wordlist by reading a website and extracting common words used on it. The wordlist can then be saved as a text file and used during authorized password assessments to look for weak passwords. There are multiple functions within Cewl that allow users to set preferences of how Cewl analyzes a website and provides a Wordlist. 
 Step-by-Step Procedure:
@@ -136,14 +138,14 @@ All of these commands can be used to specify to Kali Linux what type of wordlist
 
 
 
-Common Errors and Troubleshooting Tips:
+# Common Errors and Troubleshooting Tips:
 Cewl is better at creating small lists than larger ones, so it may struggle to create a large wordlist.
 Cewl can crawl through public websites, but may be denied access to a private website. However, this can be resolved by using the command to authenticate a website, as shown in the image below. 
 
 
 
 
-Best Practices
+# Best Practices
 
 Ethical Considerations: Cewl should only be used on websites that a user owns, or has permission to access or authorize. While generating a wordlist is not the same as password cracking, it is often used for password cracking, so it is important that it is only used for security password assessments and not for unethical hacking schemes. Users should always follow an organization's rules and requirements, avoiding gathering unnecessary personal information, and never us
 
@@ -153,10 +155,12 @@ Security Considerations: These wordlists often contain personal information, inc
 
 Professional Recommendations: Cybersecurity professionals should understand the concept of getting authorized access to websites they need permission for. Additionally, they should understand how to use the various settings in a respectful manner, such as minimizing depth crawl to only what is necessary. They should be able to articulate the purpose for each assessment they are doing and justify the need for a wordlist. If a wordlist is being used in a password assessment, they should be using only approved procedures for the assessment. 
 
-Video Demonstation: https://drive.google.com/file/d/1WFWXxxA0FJq0fIGe1cAWkndiuqdJuJAA/view?usp=drive_link 
+# Video Demonstation: https://drive.google.com/file/d/1WFWXxxA0FJq0fIGe1cAWkndiuqdJuJAA/view?usp=drive_link 
 
+# Links Used in Video:
+https://github.com/digininja/Cewl
+https://en.wikipedia.org/wiki/Computer_security
 
-
-References:
+# References:
 Kali Editors. (2025a, December 9). CEWL: Kali Linux Tools. Kali Linux. https://www.kali.org/tools/cewl/  
 Wood, R. (2024). Digininja/CEWL: CeWL is a custom word list generator. GitHub. https://github.com/digininja/Cewl  
