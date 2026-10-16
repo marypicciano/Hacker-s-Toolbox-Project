@@ -25,10 +25,10 @@ chmod u+x ./cewl.rb
 4. Make Cewl available system wide (this is optional but beneficial):
 sudo ln -s $(pwd)/cewl.rb /usr/local/bin/cewl
 5. Verify that the installation was successful:
-# Check if the script runs (should show version and usage)
-./cewl.rb --version
-# If you created a symlink or added to PATH, test the cewl command
-cewl --version
+** # Check if the script runs (should show version and usage)
+**./cewl.rb --version
+**# If you created a symlink or added to PATH, test the cewl command
+**cewl --version
 If you are using Kali Linux, Cewl is pre-installed, so they only command you have to run is sudo apt update && apt install cewl
 Initial Configuration: Once Cewl is installed, there are several other commands you can use to set preferences for when generating your word list. There is not extensive configuration that is needed once installed, but there are several functionalities of this tool that can be used on a website. 
 
