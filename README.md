@@ -147,9 +147,7 @@ Cewl can crawl through public websites, but may be denied access to a private we
 
 # Best Practices
 
-Ethical Considerations: Cewl should only be used on websites that a user owns, or has permission to access or authorize. While generating a wordlist is not the same as password cracking, it is often used for password cracking, so it is important that it is only used for security password assessments and not for unethical hacking schemes. Users should always follow an organization's rules and requirements, avoiding gathering unnecessary personal information, and never us
-
-e a website they do not have authorized access to.
+Ethical Considerations: Cewl should only be used on websites that a user owns, or has permission to access or authorize. While generating a wordlist is not the same as password cracking, it is often used for password cracking, so it is important that it is only used for security password assessments and not for unethical hacking schemes. Users should always follow an organization's rules and requirements, avoiding gathering unnecessary personal information, and never use a website they do not have authorized access to.
 
 Security Considerations: These wordlists often contain personal information, including email addresses and full names. When these lists are saved to textfiles, they should be stored securely and only shared with those who have authorized access. As shown in the usage guide, you can adjust the depth of website crawling, so users should minimize the amount of crawling they do on a website for only the necessary information they need. Finally, once the wordlists have served their purpose and are not needed anymore, they should be deleted. 
 
@@ -159,6 +157,7 @@ Professional Recommendations: Cybersecurity professionals should understand the 
 
 # Links Used in Video:
 https://github.com/digininja/Cewl
+
 https://en.wikipedia.org/wiki/Computer_security
 
 # References:
