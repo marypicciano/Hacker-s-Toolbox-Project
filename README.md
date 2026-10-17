@@ -43,22 +43,30 @@ Step-by-Step Procedure:
 <img width="886" height="877" alt="Screenshot 2026-10-08 at 11 25 16 PM" src="https://github.com/user-attachments/assets/14e9b896-fc7e-4e2c-9b3f-73c40dd9de43" />
 
 All of these commands can be used to specify to Kali Linux what type of wordlist you want from the website.
+
 3. To create a wordlist, you can use a direct URL in the Linux command line. Then, it will provide an output of words most directly associated with the website. 
 <img width="795" height="293" alt="Screenshot 2026-10-08 at 11 35 11 PM" src="https://github.com/user-attachments/assets/4a010d61-41e5-42dd-b156-d857ebe7e75c" />
+
 4. As shown in the image of commands, you can just the minimum length of words to your preference. It defaults to three characters, but you can technically choose any number. For example, if you wanted words with a minimum of 6 characters, you could run the following command and receive an output similar to the one below.
 <img width="787" height="257" alt="Screenshot 2026-10-08 at 11 49 39 PM" src="https://github.com/user-attachments/assets/e02bade9-aa38-4a24-bc94-1eb2d00f5bab" />
+
 5.  Also shown in the image of commands you can adjust the depth of crawling on a website, which essentially measures how many web pages Cewl will look for words in. For example, if you set the depth to 2, Cewl would look for words you could find in two clicks on the webpage.
 <img width="792" height="304" alt="Screenshot 2026-10-08 at 11 49 48 PM" src="https://github.com/user-attachments/assets/5f1e2b15-8f11-4515-80e5-0d06c80e361d" />
+
 6. You can also save these word lists into text files which can then be used for password auditing. The command below would create a file named wordlist.txt
 <img width="784" height="56" alt="Screenshot 2026-10-08 at 11 49 57 PM" src="https://github.com/user-attachments/assets/f37852f6-ad03-4b1b-93ee-086370c959ee" />
+
 7. You can also run a command to extract data from a website into readable information as shown below.
 <img width="781" height="247" alt="Screenshot 2026-10-08 at 11 50 25 PM" src="https://github.com/user-attachments/assets/5d18961a-66cd-46d9-a697-304c514d36c2" />
+
 8. Finally, you can combine all of these commands to run one command to generate a wordlist from a website that meets your requirements as shown below.
 <img width="836" height="172" alt="Screenshot 2026-10-09 at 12 30 21 AM" src="https://github.com/user-attachments/assets/7428a5c4-9e50-4245-a0a9-ca82cbe2e747" />
+
 # Common Errors and Troubleshooting Tips:
 Cewl is better at creating small lists than larger ones, so it may struggle to create a large wordlist.
 Cewl can crawl through public websites, but may be denied access to a private website. However, this can be resolved by using the command to authenticate a website, as shown in the image below. 
 <img width="779" height="68" alt="Screenshot 2026-10-08 at 11 51 10 PM" src="https://github.com/user-attachments/assets/19702aee-c4ef-4423-a46a-77edf9be44b4" />
+
 # Best Practices
 
 Ethical Considerations: Cewl should only be used on websites that a user owns, or has permission to access or authorize. While generating a wordlist is not the same as password cracking, it is often used for password cracking, so it is important that it is only used for security password assessments and not for unethical hacking schemes. Users should always follow an organization's rules and requirements, avoiding gathering unnecessary personal information, and never use a website they do not have authorized access to.
