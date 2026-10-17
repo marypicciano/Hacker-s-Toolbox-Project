@@ -40,6 +40,8 @@ Primary Function: The primary function of Cewl is to provide a custom wordlist b
 Step-by-Step Procedure:
 1. Open Kali Linux or the macOS terminal.
 2. Run the command cewl [options] [URL] to display all of the options cewl has that you can adjust to create a word list to your preferences. 
+<img width="886" height="877" alt="Screenshot 2026-10-08 at 11 25 16 PM" src="https://github.com/user-attachments/assets/14e9b896-fc7e-4e2c-9b3f-73c40dd9de43" />
+
 
 
 
